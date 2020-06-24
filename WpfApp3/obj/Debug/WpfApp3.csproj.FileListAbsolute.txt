@@ -1,0 +1,32 @@
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\App.g.cs
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\ТЕМА\source\repos\WpfApp3\WpfApp3\obj\Debug\App.baml
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\App.g.cs
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\App.baml
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\Виктор\Downloads\Новая папка (30)\calculator-rksi-vol2-master\WpfApp3\obj\Debug\WpfApp3.pdb

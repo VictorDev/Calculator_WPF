@@ -1,0 +1,72 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="404"
+        KeyDown="Grid_KeyDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF595959" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="Result_Text_Block" Margin="1"  Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" VerticalAlignment="Center" HorizontalAlignment="Right" TextAlignment="Right"  Style="{DynamicResource tbStyle}" />
+
+
+        <Button x:Name="log" Content="log" Margin="2" Grid.Row="1" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="Sin" Content="SIN" Margin="2" Grid.Row="2" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="Cos" Content="COS" Margin="2" Grid.Row="3" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="7" Margin="2" Grid.Row="4" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="4" Margin="2" Grid.Row="5" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="1" Margin="2" Grid.Row="6" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="dec" Content="." Margin="2" Grid.Row="7" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+
+        <Button x:Name="tan" Content="Tan" Margin="2" Grid.Row="1" Grid.Column="1" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="clear" Content="CE" Margin="2" Grid.Row="2" Grid.Column="1" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="back" Content="&lt;-" Margin="2" Grid.Row="3" Grid.Column="1" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="8" Margin="2" Grid.Row="4" Grid.Column="1"  Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="5" Margin="2" Grid.Row="5" Grid.Column="1" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="2" Margin="2" Grid.Row="6" Grid.Column="1" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="0" Margin="2" Grid.Row="7" Grid.Column="1" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+
+        <Button x:Name="exit" Content="exit" Margin="2" Grid.Row="1" Grid.Column="2" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="reset" Content="C" Margin="2" Grid.Row="2" Grid.Column="2" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="inter" Content="%" Margin="2" Grid.Row="3" Grid.Column="2" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="9" Margin="2" Grid.Row="4" Grid.Column="2" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="6" Margin="2" Grid.Row="5" Grid.Column="2" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button Content="3" Margin="2" Grid.Row="6" Grid.Column="2" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="sign" Content="+/-" Margin="2" Grid.Row="7" Grid.Column="2" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+
+        <Button x:Name="pow" Content="x^y" Margin="2" Grid.Row="1" Grid.Column="3" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="sqrt" Content="√&#xD;&#xA;" Margin="2" Grid.Row="2" Grid.Column="3" Style="{DynamicResource bStyle}" Click="Button_Click" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="division" Content="/" Margin="2" Grid.Row="3" Grid.Column="3" Click="Button_Click" AutomationProperties.Name="division" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="multiplication" Content="*" Margin="2" Grid.Row="4" Grid.Column="3" Click="Button_Click" AutomationProperties.Name="multiplication" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="substraction" Content="-" Margin="2" Grid.Row="5" Grid.Column="3" Click="Button_Click" AutomationProperties.Name="substraction" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="addition" Content="+" Margin="2" Grid.Row="6" Grid.Column="3" Click="Button_Click" AutomationProperties.Name="addition" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+        <Button x:Name="evaluate" Content="=" Margin="2" Grid.Row="7" Grid.Column="3" AutomationProperties.Name="evaluate" Click="Button_Click" Style="{DynamicResource bStyle}" PreviewMouseUp="Mouse_Up" PreviewMouseDown="Mouse_Down"/>
+
+
+    </Grid>
+</Window>
